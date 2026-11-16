@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f4f7f6;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #333333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+
+
+/*                                              Header      */
+.header {
+    margin-top: 20px;
+}
+
+.header .container {
+    background-color: #1b4b82;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: 1px solid #1b4b82;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.header h2 {
+    margin-bottom: 5px;
+}
+
+.header .text {
+    color: #a3c2e6;
+    margin-bottom: 25px;
+}
+
+.header span {
+    color: #ffffff;
+    padding: 8px 16px;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/*                                                                 About Me         */
+.about {
+    margin-top: 25px;
+}
+
+.about .container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 18px;
+}
+
+.about-image {
+    float: left;
+    width: 20%;
+}
+
+.about-image img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.about-text {
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.about-text-p {
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.about-span {
+    color: #1b4b82;
+}
+
+.about-button {
+    float: left;
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #0056b3;
+    border-radius: 10px;
+}
+
+/*                                                     My Skills               */
+.skills {
+    margin-top: 25px;
+}
+
+.skills .container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 18px;
+}
+
+
+.label {
+    color: #1b4b82;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(237, 242, 247);
+    padding-bottom: 10px;
+}
+
+.skills-text-p {
+    color: #718096;
+    margin-bottom: 25px;
+}
+
+
+.skill-card1 {
+    float: left;
+    width: 23.5%;
+    margin-right: 2%;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+.skill-card2 {
+    float: left;
+    width: 23.5%;
+    margin-right: 2%;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+.skill-card3 {
+    float: left;
+    width: 23.5%;
+    margin-right: 2%;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+.skill-card4 {
+    float: left;
+    width: 23.5%;
+    margin-right: 2%;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+
+.skill-card4 {
+    margin-right: 0px;
+}
+
+.skills h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    color: #4a5568;
+}
+
+/*                                              Experience                         */
+.experience {
+    margin-top: 25px;
+}
+
+.experience .container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 18px;
+}
+
+.expert-job {
+    color: #1b4b82;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 10px;
+}
+
+.job-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #1b4b82;
+    background-color: #f8fafc;
+}
+
+.job-icon {
+    float: left;
+    width: 8%;
+}
+
+.job-icon img {
+    width: 40px;
+}
+
+.job-details {
+    float: left;
+    width: 92%;
+    padding-left: 15px;
+}
+
+.job-details h3 {
+    color: #2d3748;
+}
+
+.job-details h4 {
+    color: #0056b3;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.job-time {
+    color: #a0aec0;
+    margin-bottom: 8px;
+}
+
+.job-details p {
+    color: #4a5568;
+}
+
+/*                                                   Contact                    */
+.contact {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact .container {
+    background-color: #1b4b82;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    border-radius: 18px;
+}
+
+.contact-text {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contact-text-p {
+    color: #cbd5e0;
+    margin-bottom: 20px;
+}
+
+.contact-spans span {
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+/*                                                        Footer                     */
+.footer{
+    margin-top: 10px;
+}
+
+.footer .container {
+    background-color: #0b1d33;
+    color: #a0aec0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 18px;
+}
